@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="minidnd.css">
+</head>
+<body>
+    <h1>Mini DND Sheet</h1>
+    Export
+    <input type="text" id="exportext" class="saveCode">
+    <button id="generate">Generate</button><br>
+    Import
+    <input type="text" class="saveCode" id="testext">
+    <button id="submit">Enter</button>
+    <br>
+    <p>NO PIPES IN ANY INPUT</p>
+    Name: <input type="text" id="nombre" class="stat"><br>
+    Race: <input type="text" id="race" class="stat"><br>
+    Class: <input type="text" id="charClass" class="stat"><br><br>
+
+    <div id="level">Level: 0</div>
+    Experience: <input type="number" id="exp" class="stat"><br>
+    Armor Class: <input type="number" id="AC" class="stat"><br>
+    Current HP: <input type="number" id="cHp" class="stat"><br>
+    Temporary Max HP: <input type="number" id="tempHp" class="stat"><br>
+    Max HP: <input type="number" id="maxHp" class="stat"><br><br>
+
+    Strength: <input type="number" id="strength" class="stat"><br>
+    Dexterity: <input type="number" id="dexterity" class="stat"><br>
+    Constitution: <input type="number" id="constitution" class="stat"><br>
+    Intelligence: <input type="number" id="intelligence" class="stat"><br>
+    Wisdom: <input type="number" id="wisdom" class="stat"><br>
+    Charisma: <input type="number" id="charisma" class="stat"><br>
+
+    <p>Modifiers</p>
+    Strength: <label id="strMod" class="modifier">+0</label><br>
+    Dexterity: <label id="dexMod" class="modifier">+0</label><br>
+    Constitution: <label id="conMod" class="modifier">+0</label><br>
+    Intelligence: <label id="intMod" class="modifier">+0</label><br>
+    Wisdom: <label id="wisMod" class="modifier">+0</label><br>
+    Charisma: <label id="chaMod" class="modifier">+0</label>
+</body>
+<script src="minidnd.js"></script>
+</html>
